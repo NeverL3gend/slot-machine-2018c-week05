@@ -1,0 +1,16 @@
+*{
+  box-sizing: border-box;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+}
+#reel1, #reel2, #reel3{
+  width: 15%;
+}
+.buttons{
+  margin-top: 10%;
+}
+#stop1, #stop2, #stop3{
+margin-left: 10%;
+}

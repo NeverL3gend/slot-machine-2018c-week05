@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+ <meta charset="utf-8">
+ <title></title>
+ <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+ <section class="mainMachine">
+   <!-- this section is going to contain the three slots -->
+   <!-- this section is going to contain 5 random items in the first slot -->
+   <!-- each ID slots are going to need to contain 5 items -->
+   <!--Separated each button to its own section in order to organize what is
+     being done in CSS and JS -->
+     <img id ="reel1" src="images/legend.png" alt="">
+     <img id ="reel2" src="images/rank1.png" alt="">
+     <img id ="reel3" src="images/rank2.jpg" alt="">
+
+  <section class = "buttons">
+    <button id="stop1" value ="button1" data-id="0">Stop</button>
+    <button id="stop2" value= "button2" data-id="1">Stop</button>
+    <button id="stop3" value= "button3" data-id="2">Stop</button>
+  </section>
+   <!-- <section id="slotOne">
+       <button  id="button" type="button" name="start">Stop</button>
+   </section>
+   <section id="slotTwo">i see it :)
+       <button id="button" type="button" name="stop">Stop</button>
+   </section>
+   <section id="slotThree">
+       <button  id="button" type="button" name="reset">Stop</button>
+   </section> -->
+ </section>
+
+ <section class="money">
+   <input id="setMoney" type="text" name="" value="">
+  <input id="betMoney" type="text" name="" value="">
+  <button id="setButton">Set Amount</button>
+  <button id="betButton">Bet Amount</button>
+  <h1>Purse:
+  <span id="purse"> </span></h1>
+ </section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
